@@ -6,13 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\ini_read.gml</script>
     <script>scripts\ini_write.gml</script>
     <script>scripts\scr_chance.gml</script>
+    <script>scripts\draw_special_text.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_a</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
   </rooms>
