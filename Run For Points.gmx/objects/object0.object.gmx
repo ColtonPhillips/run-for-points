@@ -8,6 +8,33 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>score = 0;
+
+_x = device_get_tilt_x();
+_y = device_get_tilt_y();
+_z = device_get_tilt_z();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,20 +52,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>background_xscale[0]*=1.001;
-background_yscale[0]*=1.001;
+            <string>_x = device_get_tilt_x();
+_y = device_get_tilt_y();
+_z = device_get_tilt_z();
 
-background_xscale[1]*=1.001;
-background_yscale[1]*=1.001;
-
-background_xscale[2]*=1.001;
-background_yscale[2]*=1.001;
+score += abs(_x);
+score += abs(_y);
+score += abs(_z);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -56,8 +82,10 @@ background_yscale[2]*=1.001;
           <argument>
             <kind>1</kind>
             <string>draw_set_font(font0);
-draw_special_text(10,10,"Level" + string(global.level),c_white,c_black);
-draw_special_text(20,20,"Points" + string(global.points),c_white,c_black);
+draw_text_colour(10,10,string(score),c_white,c_white,c_white,c_white,1);
+draw_text_colour(10,30,string(_x),c_white,c_white,c_white,c_white,0.9);
+draw_text_colour(10,50,string(_y),c_white,c_white,c_white,c_white,0.8);
+draw_text_colour(10,70,string(_z),c_white,c_white,c_white,c_white,0.7);
 </string>
           </argument>
         </arguments>

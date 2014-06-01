@@ -19,7 +19,7 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>True</option_android_arch_x86>
-    <option_android_build_version>0</option_android_build_version>
+    <option_android_build_version>6</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
     <option_android_display_name>Run For Points</option_android_display_name>
     <option_android_flurry_enable>0</option_android_flurry_enable>
@@ -29,31 +29,33 @@
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
     <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
-    <option_android_icade_support>-1</option_android_icade_support>
-    <option_android_icon_170>Configs\Default\android\icons\icon170.png</option_android_icon_170>
-    <option_android_icon_36>Configs\Default\android\icons\icon36.png</option_android_icon_36>
-    <option_android_icon_48>Configs\Default\android\icons\icon48.png</option_android_icon_48>
-    <option_android_icon_72>Configs\Default\android\icons\icon72.png</option_android_icon_72>
+    <option_android_icade_support>0</option_android_icade_support>
+    <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
+    <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
+    <option_android_icon_mdpi>Configs\Default\android\icons\icon_mdpi.png</option_android_icon_mdpi>
+    <option_android_icon_xhdpi>Configs\Default\android\icons\icon_xhdpi.png</option_android_icon_xhdpi>
+    <option_android_icon_xxhdpi>Configs\Default\android\icons\icon_xxhdpi.png</option_android_icon_xxhdpi>
+    <option_android_icon_xxxhdpi>Configs\Default\android\icons\icon_xxxhdpi.png</option_android_icon_xxxhdpi>
     <option_android_install_location>auto</option_android_install_location>
-    <option_android_interpolate>-1</option_android_interpolate>
+    <option_android_interpolate>0</option_android_interpolate>
     <option_android_licensing_enable>0</option_android_licensing_enable>
     <option_android_licensing_key></option_android_licensing_key>
     <option_android_major_version>1</option_android_major_version>
     <option_android_minor_version>0</option_android_minor_version>
     <option_android_orient_landscape>true</option_android_orient_landscape>
     <option_android_orient_portrait>true</option_android_orient_portrait>
-    <option_android_orientation>2</option_android_orientation>
+    <option_android_orientation>0</option_android_orientation>
     <option_android_ouya_icon>Configs\Default\android\icons\ouyaIcon.png</option_android_ouya_icon>
-    <option_android_package_company>companyname</option_android_package_company>
+    <option_android_package_company>coltonphillips</option_android_package_company>
     <option_android_package_domain>com</option_android_package_domain>
-    <option_android_package_product>Run_For_Points</option_android_package_product>
-    <option_android_permission_flags>8</option_android_permission_flags>
+    <option_android_package_product>RunForPoints</option_android_package_product>
+    <option_android_permission_flags>0</option_android_permission_flags>
     <option_android_pocketchange_enable>0</option_android_pocketchange_enable>
     <option_android_pocketchange_id></option_android_pocketchange_id>
     <option_android_pocketchange_test_enable>0</option_android_pocketchange_test_enable>
     <option_android_push_enable>0</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
-    <option_android_scale>-1</option_android_scale>
+    <option_android_scale>0</option_android_scale>
     <option_android_set_device_id></option_android_set_device_id>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_texture_page>1024</option_android_texture_page>
@@ -73,8 +75,8 @@
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>False</option_fullscreen>
-    <option_gameguid>{FF85248E-CD8D-4226-8998-75180002450F}</option_gameguid>
-    <option_gameid>712805484</option_gameid>
+    <option_gameguid>{43D7F50E-7656-4D2F-A973-5FE8E109F702}</option_gameguid>
+    <option_gameid>403680232</option_gameid>
     <option_haptic_effects>0</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
@@ -109,7 +111,7 @@
     <option_in_app_purchase_sandbox_mode>0</option_in_app_purchase_sandbox_mode>
     <option_in_app_purchase_server_url></option_in_app_purchase_server_url>
     <option_information></option_information>
-    <option_interpolate>False</option_interpolate>
+    <option_interpolate>True</option_interpolate>
     <option_ios_adcolony_enable_V4VC>0</option_ios_adcolony_enable_V4VC>
     <option_ios_advertising_enable>0</option_ios_advertising_enable>
     <option_ios_advertising_key></option_ios_advertising_key>
@@ -118,7 +120,7 @@
     <option_ios_build_version>0</option_ios_build_version>
     <option_ios_certificate>&lt; Press refresh to fetch certificate list from Mac&gt;</option_ios_certificate>
     <option_ios_device_type>3</option_ios_device_type>
-    <option_ios_display_name>Run For Points</option_ios_display_name>
+    <option_ios_display_name>Cat Game</option_ios_display_name>
     <option_ios_flurry_enable>0</option_ios_flurry_enable>
     <option_ios_flurry_id></option_ios_flurry_id>
     <option_ios_google_analytics_enable>0</option_ios_google_analytics_enable>
@@ -151,7 +153,7 @@
     <option_ios_texture_page>1024</option_ios_texture_page>
     <option_ios_use_test_ads>0</option_ios_use_test_ads>
     <option_lastchanged></option_lastchanged>
-    <option_linux_display_name>Run For Points</option_linux_display_name>
+    <option_linux_display_name>Cat Game</option_linux_display_name>
     <option_linux_enable_steam>0</option_linux_enable_steam>
     <option_linux_fullscreen>0</option_linux_fullscreen>
     <option_linux_icon>Configs\Default\linux\icon64.png</option_linux_icon>
@@ -173,7 +175,7 @@
     <option_mac_build_version>0</option_mac_build_version>
     <option_mac_copyright_info>(c)2012 CompanyName Ltd...</option_mac_copyright_info>
     <option_mac_create_app_store>-1</option_mac_create_app_store>
-    <option_mac_display_name>Run For Points</option_mac_display_name>
+    <option_mac_display_name>Cat Game</option_mac_display_name>
     <option_mac_enable_steam>0</option_mac_enable_steam>
     <option_mac_fullscreen>0</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
@@ -181,7 +183,7 @@
     <option_mac_major_version>1</option_mac_major_version>
     <option_mac_menu_dock>0</option_mac_menu_dock>
     <option_mac_minor_version>0</option_mac_minor_version>
-    <option_mac_output_dir>~/GameMaker-Studio/Run For Points</option_mac_output_dir>
+    <option_mac_output_dir>~/GameMaker-Studio/Cat Game</option_mac_output_dir>
     <option_mac_scale>-1</option_mac_scale>
     <option_mac_screenkey>-1</option_mac_screenkey>
     <option_mac_showcursor>-1</option_mac_showcursor>
@@ -195,6 +197,17 @@
     <option_noscreensaver>true</option_noscreensaver>
     <option_ouya_packaging>0</option_ouya_packaging>
     <option_priority>0</option_priority>
+    <option_ps4_interpolate>-1</option_ps4_interpolate>
+    <option_ps4_nptitleid></option_ps4_nptitleid>
+    <option_ps4_nptitlesecret>Memo1
+</option_ps4_nptitlesecret>
+    <option_ps4_package_id></option_ps4_package_id>
+    <option_ps4_passcode></option_ps4_passcode>
+    <option_ps4_scale>0</option_ps4_scale>
+    <option_ps4_texture_page>2048</option_ps4_texture_page>
+    <option_psvita_interpolation>true</option_psvita_interpolation>
+    <option_psvita_package_id>EP9000-NPXB01693_00-GMSTUDIORUNNER00</option_psvita_package_id>
+    <option_psvita_passcode>5MHZUpPpbQLKAkttvpJzA6EaWgsiWv1w</option_psvita_passcode>
     <option_quitkey>true</option_quitkey>
     <option_resolution>0</option_resolution>
     <option_savekey>true</option_savekey>
@@ -215,9 +228,9 @@
     <option_textureGroup0_targets>9223372036854775807</option_textureGroup0_targets>
     <option_textureGroup_count>1</option_textureGroup_count>
     <option_textureGroups0>Default</option_textureGroups0>
-    <option_tizen_app_id>http://yourdomain/Run For Points</option_tizen_app_id>
+    <option_tizen_app_id>http://yourdomain/Cat Game</option_tizen_app_id>
     <option_tizen_build_version>0</option_tizen_build_version>
-    <option_tizen_display_name>Run For Points</option_tizen_display_name>
+    <option_tizen_display_name>Cat Game</option_tizen_display_name>
     <option_tizen_flurry_enable>0</option_tizen_flurry_enable>
     <option_tizen_flurry_id></option_tizen_flurry_id>
     <option_tizen_google_analytics_enable>0</option_tizen_google_analytics_enable>
@@ -249,12 +262,12 @@
     <option_win8_advertising_enable>0</option_win8_advertising_enable>
     <option_win8_advertising_key></option_win8_advertising_key>
     <option_win8_advertising_testing_enable>0</option_win8_advertising_testing_enable>
-    <option_win8_advertising_type>MS Advertising</option_win8_advertising_type>
+    <option_win8_advertising_type></option_win8_advertising_type>
     <option_win8_analytics_enable>0</option_win8_analytics_enable>
     <option_win8_analytics_id></option_win8_analytics_id>
     <option_win8_build_version>0</option_win8_build_version>
     <option_win8_certificate_location>Windows8_TemporaryKey.pfx</option_win8_certificate_location>
-    <option_win8_display_name>Run For Points</option_win8_display_name>
+    <option_win8_display_name>Cat Game</option_win8_display_name>
     <option_win8_internet_capable>0</option_win8_internet_capable>
     <option_win8_interpolate>-1</option_win8_interpolate>
     <option_win8_landscape_allowed>-1</option_win8_landscape_allowed>
@@ -306,7 +319,7 @@
     <option_winphone_advertising_enable>0</option_winphone_advertising_enable>
     <option_winphone_advertising_key></option_winphone_advertising_key>
     <option_winphone_advertising_testing_enable>0</option_winphone_advertising_testing_enable>
-    <option_winphone_advertising_type>MS Advertising</option_winphone_advertising_type>
+    <option_winphone_advertising_type></option_winphone_advertising_type>
     <option_winphone_author>You</option_winphone_author>
     <option_winphone_build_version>0</option_winphone_build_version>
     <option_winphone_cycle_small_image>Configs\Default\WinPhone\CycleSmall.png</option_winphone_cycle_small_image>
@@ -320,7 +333,7 @@
     <option_winphone_cycle_wide_image_8>Configs\Default\WinPhone\CycleWide8.png</option_winphone_cycle_wide_image_8>
     <option_winphone_cycle_wide_image_9>Configs\Default\WinPhone\CycleWide9.png</option_winphone_cycle_wide_image_9>
     <option_winphone_description>YourDescription</option_winphone_description>
-    <option_winphone_display_name>Run For Points</option_winphone_display_name>
+    <option_winphone_display_name>Cat Game</option_winphone_display_name>
     <option_winphone_flip_content_back></option_winphone_flip_content_back>
     <option_winphone_flip_content_front></option_winphone_flip_content_front>
     <option_winphone_flip_medium_back_image>Configs\Default\WinPhone\FlipMedBack.png</option_winphone_flip_medium_back_image>
@@ -358,6 +371,20 @@
     <option_winphone_texture_page>1024</option_winphone_texture_page>
     <option_winphone_tile_type>0</option_winphone_tile_type>
     <option_writeerrors>False</option_writeerrors>
+    <option_xbone_background_colour>#464646</option_xbone_background_colour>
+    <option_xbone_build_version>0</option_xbone_build_version>
+    <option_xbone_description>Your Description</option_xbone_description>
+    <option_xbone_display_name>Cat Game</option_xbone_display_name>
+    <option_xbone_foreground_text>light</option_xbone_foreground_text>
+    <option_xbone_interpolation>true</option_xbone_interpolation>
+    <option_xbone_major_version>1</option_xbone_major_version>
+    <option_xbone_minor_version>0</option_xbone_minor_version>
+    <option_xbone_publisher>Company Name</option_xbone_publisher>
+    <option_xbone_publisher_display_name>Company Display Name</option_xbone_publisher_display_name>
+    <option_xbone_revision_version>0</option_xbone_revision_version>
+    <option_xbone_scale>-1</option_xbone_scale>
+    <option_xbone_splash_screen_colour>#464646</option_xbone_splash_screen_colour>
+    <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
   <ConfigConstants/>
 </Config>
